@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rback"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:id="@+id/linearM"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="invisible"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewQ"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rdoG"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <RadioButton
+                android:id="@+id/rdo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1." />
+
+            <RadioButton
+                android:id="@+id/rdo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2." />
+
+            <RadioButton
+                android:id="@+id/rdo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3." />
+
+            <RadioButton
+                android:id="@+id/rdo4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4." />
+
+
+        </RadioGroup>
+
+        <ImageView
+
+            android:id="@+id/imgV"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:text="시작하기" />
+        <Button
+            android:id="@+id/btnanswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="결과보기" />
+        <Button
+            android:id="@+id/btnR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:text="종료하기" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textanswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

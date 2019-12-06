@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnRawRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RAW 폴더에서 파일 읽어오기"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+<!--  1.  txt 파일을 하나 생성하였다.  (저장은 UTF-8로 하지 않으면 글자가 깨져보임)-->
+<!--  2.  그 후 res 폴더 안에 raw 폴더 생성-->
+<!--  3.  제작한 txt 파일을 raw폴더에 붙여넣은 후 자바로 이동-->
+
+</LinearLayout>

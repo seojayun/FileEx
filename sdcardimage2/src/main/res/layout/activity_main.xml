@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="이전 그림"/>
+        <TextView
+            android:id="@+id/tvNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="1/5"/>
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="다음 그림"/>
+
+
+
+    </LinearLayout>
+        <com.example.sdcardimage2.myImageView
+            android:id="@+id/ivSDcardimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+<!--   1. 입력 후 com.example.sdcaedimgae2 오른쪽 마우스 새로운 자바 파일을 만든다.(클래스)  myImageView 생성 -->
+
+
+
+</LinearLayout>
